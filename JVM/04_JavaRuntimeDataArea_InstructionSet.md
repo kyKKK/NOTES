@@ -28,7 +28,7 @@ PC 程序计数器
 
 JVM Stack
 
-<img src="C:\马士兵课\JVM\JVM-master\04_JavaRuntimeDataArea_InstructionSet.assets\image-20200909215717497.png" alt="image-20200909215717497" style="zoom:50%;" />
+<img src="04_JavaRuntimeDataArea_InstructionSet.assets/image-20200909215717497-1599660727490.png" alt="image-20200909215717497" style="zoom:50%;" />
 
 1. Frame - 每个方法对应一个栈帧
    1. Local Variable Table （局部变量表）
@@ -44,7 +44,7 @@ JVM Stack
    4. return address
       a() -> b()，方法a调用了方法b, b方法的返回值放在什么地方
       
-      <img src="C:\马士兵课\JVM\JVM-master\04_JavaRuntimeDataArea_InstructionSet.assets\image-20200909154303203.png" alt="image-20200909154303203" style="zoom:50%;" />
+      <img src="04_JavaRuntimeDataArea_InstructionSet.assets/image-20200909154303203-1599660735492.png" alt="image-20200909154303203" style="zoom:50%;" />
 
 Heap
 
@@ -75,7 +75,7 @@ Direct Memory
 >
 > 提示：结合GC， 一直创建字符串常量，观察堆，和Metaspace
 
-![image-20200909153908221](C:\马士兵课\JVM\JVM-master\04_JavaRuntimeDataArea_InstructionSet.assets\image-20200909153908221.png)
+![image-20200909153908221](04_JavaRuntimeDataArea_InstructionSet.assets/image-20200909153908221-1599660739621.png)
 
 ​																																							这是1.8之前，1.8之后Method Area实现为Meta Space
 
